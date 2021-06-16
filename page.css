@@ -1,0 +1,418 @@
+
+section
+{
+    margin-bottom: 150px;
+}
+/* this is style of  navigation bar section */
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding-top: 15px;
+    position: sticky;
+    top:0;
+    word-spacing: 45px;
+    box-shadow:  -5px -5px 10px blue; 
+    z-index: 1000;  
+}   
+
+.nav a {
+    color: black;
+    text-decoration: none ;
+
+}
+nav a:hover{
+    color: #854fee;
+}
+/* first section style */
+.first, .headers 
+{
+    padding-left:55px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    
+    
+}
+
+h1, h3, h5{
+    padding:5px;
+}
+h1 {
+
+    font-size: xx-large;
+    
+}
+button
+ {
+    
+    border:none;
+    border: 2px solid #854fee ;
+    border-radius: 8px;
+    color: black; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 7px 7px;
+    cursor: pointer;
+
+
+ }
+ 
+ button:focus
+ {  
+     
+    background-color: #854fee; 
+    color: white;
+    outline: 3px solid white;
+    
+
+    
+ }
+ .Buttons
+ {
+     padding-left: 30px;
+
+ }
+ .home{
+     width: 300px;
+     position: absolute;
+     right: 150px;
+     top:120px ;
+ }
+ 
+ /*this is the second part of  of styling the sections*/
+
+ 
+.discripe
+ {
+     margin-left: 600px;
+     
+     
+ }
+ .discription p
+ {
+     color: #969494;
+     text-transform: lowercase;
+     width: 400px;
+     margin-left: 150px;
+ }
+.only2
+{
+    color: black;
+    margin-left: 140px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius:0px ;
+    
+
+}
+.only{
+    color: black;
+    margin-left: 160px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius:0px ;
+    
+    
+
+}
+.last img
+{
+    width: 400px;
+    position: absolute;
+    top: 500px;
+    margin-left: 120px;
+}
+/*this is the third part of styling we gonna style the small icons */
+.icons
+{
+width: 500px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: repeat(3, 1fr);
+  gap:20px 20px;
+  padding-left: 120px;
+  margin-bottom:-50px;
+}
+.icons img{
+    border: 1px solid #e7e5e5;
+    padding: 25px;
+    height: 70px;
+    width: 110px;
+    
+}
+.info
+{
+    position: absolute;
+    right: 0px;
+    margin-right: 230px;
+    margin-top: -200px;
+
+    width: 40%;
+   
+}
+
+.info p
+{
+    padding:15px;
+}
+.info .ten::before {
+    content: "10";
+    font-size: 50px;
+    font-weight: bolder;
+    font-style:unset;
+   position:absolute;
+   left: 290px;
+   color: #854fee;
+}
+.info div
+{
+    background-color: #eaeaf0;
+    width: 50%;
+
+}
+
+.call
+{
+    color: #854fee;
+    font-weight: bold;
+}
+.info .icon
+{
+    width: 35px;
+    position: absolute;
+    margin-top: 15px;
+    left: 305px;
+    z-index: -1;
+}
+/* in this part we will style the services offers*/
+.services
+{
+    position: absolute;
+    left: 30%;
+    width: 45%;
+   
+}
+.services p{
+    color: #777;
+    text-transform: lowercase;
+    
+}
+.services h2
+{
+    padding-left: 130px;
+    color: black;
+}
+.offers
+{
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-evenly;
+    
+}
+main .one, .tow, .three, .four
+{
+    width: 300px;
+    background-color: #f9f9fd;
+    margin: 40px;
+    height: 250px;
+    text-align: center;
+}
+
+
+main p{
+    text-transform: lowercase;
+    color: #777;
+    padding: 15px;
+    
+ 
+}
+.offers img
+{
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.offers h4{
+    padding-left: 20px;
+}
+/* second nav section */
+.head{
+    padding-left: 100px;
+}
+.quality
+{
+    padding:30px 0px 50px 100px;
+}
+.quality nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.quality a 
+{
+    color: black;
+    text-decoration:none;
+    
+}
+.pictures
+{
+    padding-left: 70px;
+    display: flex;
+    background-color:  #f9f9fd;
+    justify-content: space-around;
+}
+.pictures p {
+    text-transform: none;
+}
+.pictures span
+{
+    color: black;
+}
+/*clint side style*/
+.clients h1, pre
+{
+    padding-left: 190px;
+
+}
+.clients h1
+{
+    padding-left:450px;
+}
+.clients pre
+{
+    text-transform: none;
+    color: #9c9c9c;
+}
+
+.charectors
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.davin, .martin
+{
+    
+    display: flex;
+    background-color: #f9f9fd;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.charectors h4
+{
+   width: 100%;
+    align-self: start;
+    position: relative;
+    left: 25px;
+  
+
+}
+
+
+.charectors p{
+    padding-top: 30px;
+    position: relative;
+    right:120px;
+}
+.line
+{
+    width: 50px;
+    position: relative;
+    left: 627px;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    background-color: white;
+    
+
+    
+}
+.parent .second
+{
+    
+    width: 10px;
+    height:10px;
+    border: -1px solid;
+    background-color: rgb(47, 14, 192);
+    border-radius: 50%;
+}
+.parent .empty
+{
+    
+    width: 9px;
+    height:9px;
+    border: -1px solid;
+    border-radius: 50%;
+    background-color: rgb(145, 143, 143);
+}
+/*here we gonna style the last section*/
+.lastes
+{
+    width: 70%;
+    height: 400px;
+    background-color: #854fee;
+    position: relative;
+    left: 15%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.lastes p, h2, .paragraph
+{
+    color: white;
+    margin-left: 25px; 
+    padding:10px;
+    margin-top: -10px;
+ 
+}
+input 
+{
+    background-color: #854fee;
+    height: 35px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: white;
+    outline: 3px solid #854fee;
+    border: 1px solid#e7e5e5;
+    z-index: 9;
+}
+.lastes .lower button
+{
+    color: black;
+    outline: rgb(240, 238, 243);
+    
+    
+}
+/*here we gonna style the last content in the page  */
+footer
+{
+display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+footer div 
+{
+    padding: 10px;
+}
+footer .logo, .follow
+{
+    padding-left: 70px;
+}
